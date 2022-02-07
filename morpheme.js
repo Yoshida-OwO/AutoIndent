@@ -51,7 +51,7 @@ function isHankaku(value){
     return !value.match(/[^\x01-\x7E]/) || !value.match(/[^\uFF65-\uFF9F]/);
 }
 
-// fromSegmentsReturnLines(segments,NumberOfCharactersOfLine)
+fromSegmentsReturnLines(segments,NumberOfCharactersOfLine)
 
-// console.log(segments)
-// console.log(Lines);
+console.log(segments)
+console.log(Lines);
